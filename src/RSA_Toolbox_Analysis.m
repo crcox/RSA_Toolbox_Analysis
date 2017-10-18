@@ -128,7 +128,7 @@ function RSA_Toolbox_Analysis(condition, varargin)
 
     output_dir = fullfile(p.Results.output_root,condition,'permutations');
     if ~exist(output_dir, 'dir')
-        mkdir(outputdir);
+        mkdir(output_dir);
     end
     override = struct( ...
         'analysisName', '', ...

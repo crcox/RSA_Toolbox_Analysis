@@ -1,6 +1,7 @@
 files_to_copy = { 
     'C:\Users\mbmhscc4\MATLAB\MRI\SoundPicture\concept_list.mat'
     'D:\MRI\SoundPicture\data\MAT\avg\bystudy\metadata_avg_wAnimate.mat'
+    'D:\MRI\SoundPicture\data\MAT\avg\bystudy\PERMUTATION_INDEX.mat'
 };
 destination_dir = 'C:\Users\mbmhscc4\MATLAB\src\RSA_Toolbox_Analysis\data';
 for i = 1:numel(files_to_copy)
